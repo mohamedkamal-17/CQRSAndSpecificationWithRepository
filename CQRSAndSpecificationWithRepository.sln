@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSAndSpecificationWithRepository.Api", "CQRSAndSpecificationWithRepository\CQRSAndSpecificationWithRepository.Api.csproj", "{8D169DBC-9B69-4398-BC6C-8EA1A1E604BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSAndSpecificationWithRepository.Aplication", "CQRSAndSpecificationWithRepository.Aplication\CQRSAndSpecificationWithRepository.Aplication.csproj", "{0BE54C76-8976-4E5A-BB32-7CC8A27E5C09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSAndSpecificationWithRepository.Domain", "CQRSAndSpecificationWithRepository.Domain\CQRSAndSpecificationWithRepository.Domain.csproj", "{D07962DD-B249-4847-8E1E-45C43BC58AEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSAndSpecificationWithRepository.Infrastructure", "CQRSAndSpecificationWithRepository.Infrastructure\CQRSAndSpecificationWithRepository.Infrastructure.csproj", "{CB65AF7B-EF94-4D30-BC93-3394B6E7BFE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B414AC0-F69A-4034-9B16-2B11AC5B1329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{30286E29-81BE-43E7-A08C-DB122358C6A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1616EC85-D9E7-4FB1-9474-A1C5A0CEFA6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{118009C9-E004-4875-B416-E2D4B161B195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D169DBC-9B69-4398-BC6C-8EA1A1E604BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D169DBC-9B69-4398-BC6C-8EA1A1E604BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D169DBC-9B69-4398-BC6C-8EA1A1E604BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D169DBC-9B69-4398-BC6C-8EA1A1E604BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE54C76-8976-4E5A-BB32-7CC8A27E5C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE54C76-8976-4E5A-BB32-7CC8A27E5C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE54C76-8976-4E5A-BB32-7CC8A27E5C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE54C76-8976-4E5A-BB32-7CC8A27E5C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07962DD-B249-4847-8E1E-45C43BC58AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07962DD-B249-4847-8E1E-45C43BC58AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07962DD-B249-4847-8E1E-45C43BC58AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07962DD-B249-4847-8E1E-45C43BC58AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB65AF7B-EF94-4D30-BC93-3394B6E7BFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB65AF7B-EF94-4D30-BC93-3394B6E7BFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB65AF7B-EF94-4D30-BC93-3394B6E7BFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB65AF7B-EF94-4D30-BC93-3394B6E7BFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D169DBC-9B69-4398-BC6C-8EA1A1E604BD} = {1616EC85-D9E7-4FB1-9474-A1C5A0CEFA6D}
+		{0BE54C76-8976-4E5A-BB32-7CC8A27E5C09} = {30286E29-81BE-43E7-A08C-DB122358C6A5}
+		{D07962DD-B249-4847-8E1E-45C43BC58AEE} = {30286E29-81BE-43E7-A08C-DB122358C6A5}
+		{CB65AF7B-EF94-4D30-BC93-3394B6E7BFE9} = {118009C9-E004-4875-B416-E2D4B161B195}
+		{30286E29-81BE-43E7-A08C-DB122358C6A5} = {3B414AC0-F69A-4034-9B16-2B11AC5B1329}
+		{1616EC85-D9E7-4FB1-9474-A1C5A0CEFA6D} = {3B414AC0-F69A-4034-9B16-2B11AC5B1329}
+		{118009C9-E004-4875-B416-E2D4B161B195} = {3B414AC0-F69A-4034-9B16-2B11AC5B1329}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6035DEC0-105C-4089-8F62-5E4A56100F33}
+	EndGlobalSection
+EndGlobal
