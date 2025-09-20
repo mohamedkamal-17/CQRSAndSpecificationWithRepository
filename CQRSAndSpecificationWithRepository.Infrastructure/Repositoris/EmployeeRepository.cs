@@ -17,7 +17,7 @@ namespace CQRSAndSpecificationWithRepository.Infrastructure.Repositoris
             return await ApllaySpeceification(employeeSet, new GetAllIncludeProjectOrderByIdSpecification()).ToListAsync(cancellationToken);
         }
 
-        public async Task<Employee> GetByIdIncludProject(int id, CancellationToken cancellationToken)
+        public async Task<Employee?> GetByIdIncludProject(int id, CancellationToken cancellationToken)
         {
             return await ApllaySpeceification(employeeSet, new GetEmployeeByIdIncludProjectSpecification(id))
                 .FirstOrDefaultAsync(cancellationToken);
@@ -25,7 +25,7 @@ namespace CQRSAndSpecificationWithRepository.Infrastructure.Repositoris
 
 
 
-        public async Task<Employee> GetByNameIncludProjectandDpartment(string name, CancellationToken cancellationToken)
+        public async Task<Employee?> GetByNameIncludProjectandDpartment(string name, CancellationToken cancellationToken)
         {
             return await ApllaySpeceification(employeeSet, new GetEmployeeByNameIncludeProjectAndDepartmentSpecification(name))
                 .FirstOrDefaultAsync(cancellationToken);

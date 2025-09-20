@@ -16,11 +16,8 @@ namespace CQRSAndSpecificationWithRepository.Aplication.specefication
         public Expression<Func<T, object>>? OrderByExpression { get; private set; }
         public Expression<Func<T, object>>? OrderByDescendingExpression { get; private set; }
         public List<Expression<Func<T, object>>>? IgnoreNavigations { get; private set; } = new();
-
-
         protected void AddIncluds(Expression<Func<T, object>> IncudeExpression) =>
             IncludesExpression.Add(IncudeExpression);
-
 
         protected void AddOrderBy(Expression<Func<T, object>> orderByExpression) =>
             OrderByExpression = orderByExpression;
